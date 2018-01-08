@@ -1,0 +1,11 @@
+The SQL connexion needs to find a bicing schema on your MySQL environment. The station information was taken on December 2017. 
+
+tempo: the function escriu_a_mysql() takes as input every instance for the API on a single moment and save all the information on a 
+SQL connexion. The script makes sure that the information has aleady changed. 
+
+station_info: takes all the static data from every station and saves it on a csv, ready to be imported to your SQL schema.
+
+nearby_info: creates a csv with all the proximity relations between stations.
+
+
+
